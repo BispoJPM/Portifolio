@@ -30,15 +30,15 @@ Olá! Sou estudante no curso de Banco de Dados da [FATEC São José dos Campos -
 
 Durante os estudos na FATEC, aprendi principalmente sobre tecnologias voltadas a SQL, Banco de Dados, SGBD e boas práticas de desenvolvimento. Por meio da metodologia de Aprendizagem por Projetos Integrados (API), consegui aplicar esses conhecimentos em contextos reais de projeto.
 
-No mercado de trabalho, atuo como **Auxiliar do Controle Interno** na Prefeitura de Aeronáutica de São José dos Campos, onde minhas principais atividades envolvem:
+No mercado de trabalho, atuo como Auxiliar do Controle Interno na Prefeitura de Aeronáutica de São José dos Campos, onde minhas principais atividades envolvem:
 
-- Acompanhamento da execução orçamentária e financeira de contratos e convênios;
-- Apoio na fiscalização de processos licitatórios e na conferência de documentação;
-- Elaboração de relatórios e pareceres de auditoria interna;
-- Verificação da conformidade dos processos administrativos com a legislação vigente;
-- Apoio na organização de documentação para prestação de contas junto aos órgãos de controle externo.
+- Conferência e acompanhamento de Guia de Recolhimento Nacional e Guia de Fornecimento de Material (GRN e GFM);
+- Confecção e conferência de documentos voltados à prestação de contas e emissão de portarias;
+- Tratamento e controle de não-conformidades identificadas nos processos administrativos;
+- Apoio na análise e conferência de documentação comprobatória para auditorias e rotinas internas;
+- Garantia da regularidade e conformidade dos atos administrativos conforme as normas vigentes.
 
-Essa vivência com processos, normas e organização de dados administrativos se conecta diretamente com o que estudo na área de Banco de Dados — principalmente na importância da integridade, rastreabilidade e governança da informação.
+Essa vivência com fluxos, regras e organização de dados administrativos se conecta diretamente com a minha formação em Banco de Dados — especialmente no cuidado com a integridade, a rastreabilidade e a governança da informação. Além disso, essa visão sistêmica e orientada a processos fortalece a minha atuação no desenvolvimento de software.
 
 ---
 
