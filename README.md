@@ -1,42 +1,85 @@
-# 📌 Portfólio API's Banco de Dados - João Pedro Bispo de Almeida Cardoso Marcondes
-
-Trabalho de graduação na modalidade Portfólio dos projetos realizados utilizando a metodologia ágil Scrum e a Aprendizagem por Projetos Integrados (API), necessário como parte dos requisitos para obtenção do título de Tecnólogo em Banco de Dados pela Faculdade de Tecnologia de São José dos Campos.
-
-## 👤 Autor
-
-Olá! Sou estudante no curso de Banco de Dados da [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/), da turma de 2023 - 2º semestre.
-Sou formado em Técnico em Administração na [ETEC Machado de Assís](https://etecmachadodeassis.com/).
-
-Durante os estudos na FATEC aprendi, principalmente, sobre tecnologias voltadas a SQL, Banco de Dados, SGBD e boas práticas de desenvolvimento. Através das aulas e especialmente por meio de desenvolvimentos de projetos utilizando a metodologia Aprendizagem por Projetos Integrados (API), consegui por em prática os conhecimentos que obtive durante o curso em contextos reais.
-
-No mercado de trabalho, atuo como Auxiliar do Controle Interno na Prefeitura de Aeronaútica de São JOsé dos Campos.
+<h1 align="center">📌 Portfólio API's Banco de Dados</h1>
+<h3 align="center">João Pedro Bispo de Almeida Cardoso Marcondes</h3>
 
 <p align="center">
-  <img src="assets/foto-perfil.png" alt="Minha Foto" width="200">
+Trabalho de graduação na modalidade Portfólio dos projetos realizados utilizando a metodologia ágil <strong>Scrum</strong> e a <strong>Aprendizagem por Projetos Integrados (API)</strong>, como parte dos requisitos para obtenção do título de Tecnólogo em Banco de Dados pela Faculdade de Tecnologia de São José dos Campos.
 </p>
 
-<div align = center>
- <a href="https://www.linkedin.com/in/augusto-piatto/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
- <a href="https://github.com/augustopiatto" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github" target="_blank"></a>
+<p align="center">
+  <img src="https://img.shields.io/badge/FATEC-São José dos Campos-0057B7?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Curso-Banco de Dados-2E8B57?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Turma-2023.2-orange?style=for-the-badge">
+</p>
+
+<div align="center">
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-563369181/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://github.com/BispoJPM" target="_blank"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"></a>
 </div>
 
-## 🧠 Meus Principais Conhecimentos
-* 💻 Desenvolvimento:
-  * Front-end: Experiência sólida utilizando `Vue`, com conhecimento em `Angular`.
-  * Back-end: Experiência sólida utilizando `Django`, `Python` com conhecimento em Java - SpringBoot.
-  * Banco de Dados: Conhecimento em banco relacionais, principalmente `postgres`, com conhecimento em banco não relacional `MongoDB`.
+<br>
 
-* 📋 Metodologia Ágil (Scrum) - Scrum Master:
-  * Criação do Product Backlog pela metodologia Product Backlog Building (PBB);
-  * Quebra das User Stories da Sprint em Tasks objetivas;
-  * Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe;
-  * Utilização das ferramentas `Jira` e `Github Kanban`;
-  * Acompanhamento de ritos e reuniões de scrum através do cargo de Scrum Master.
+---
 
-## 📂 Meus Projetos
-* [1º Semestre: Sistema de Informação para Instituição de Ensino]
-* [2º Semestre: Ferramenta para consolidação de dados climáticos de cidades do estado de São Paulo]
-* [3º Semestre: Ferramenta de Captura e Armazenamento de Notícias Estratégicas e Dados Relevantes Associados]
-* [4º Semestre: Manipulação de dados armazenados em banco relacional com visualização em tela e / ou acesso por meio de API]
-* [5º Semestre: Projeto de Data Warehouse sobre Dados Operacionais da Empresa Parceira]
-* [6º Semestre: Classificador de Documentos Técnicos]
+## 👤 Sobre mim
+
+<p align="center">
+<img src="pictures/perfil.jpeg" alt="Minha Foto" width="180">
+</p>
+
+Olá! Sou estudante no curso de Banco de Dados da [FATEC São José dos Campos - Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/), da turma de 2023 - 2º semestre. Sou formado em Técnico em Administração pela [ETEC Machado de Assis](https://etecmachadodeassis.com/).
+
+Durante os estudos na FATEC, aprendi principalmente sobre tecnologias voltadas a SQL, Banco de Dados, SGBD e boas práticas de desenvolvimento. Por meio da metodologia de Aprendizagem por Projetos Integrados (API), consegui aplicar esses conhecimentos em contextos reais de projeto.
+
+No mercado de trabalho, atuo como **Auxiliar do Controle Interno** na Prefeitura de Aeronáutica de São José dos Campos, onde minhas principais atividades envolvem:
+
+- Acompanhamento da execução orçamentária e financeira de contratos e convênios;
+- Apoio na fiscalização de processos licitatórios e na conferência de documentação;
+- Elaboração de relatórios e pareceres de auditoria interna;
+- Verificação da conformidade dos processos administrativos com a legislação vigente;
+- Apoio na organização de documentação para prestação de contas junto aos órgãos de controle externo.
+
+Essa vivência com processos, normas e organização de dados administrativos se conecta diretamente com o que estudo na área de Banco de Dados — principalmente na importância da integridade, rastreabilidade e governança da informação.
+
+---
+
+## 🧠 Principais Conhecimentos
+
+**💻 Front-end**
+
+<img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
+
+**⚙️ Back-end**
+
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+
+**🗄️ Banco de Dados**
+
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+
+---
+
+## 📋 Metodologia Ágil (Scrum)
+
+**🎯 Scrum Master**
+- Facilitação dos ritos e reuniões de Scrum (Daily, Planning, Review, Retrospectiva);
+- Remoção de impedimentos e apoio ao time durante a Sprint;
+- Utilização das ferramentas `Jira` e `GitHub Kanban` para acompanhamento das tarefas.
+
+---
+
+## 📂 Projetos por Semestre
+
+| Semestre | Projeto |
+|:---:|---|
+| 1º | [Projeto de Gerenciamento Acadêmico](projetos/1-Semestre.md) |
+| 2º | [Consolidação de Dados Climáticos de Cidades do Estado de São Paulo](projetos/2-Semestre.md) |
+| 3º | [Captura e Armazenamento de Notícias Estratégicas e Dados Relevantes Associados](projetos/3-Semestre.md) |
+| 4º | [Manipulação de Dados Armazenados em Banco Relacional com Visualização em Tela e/ou Acesso por API](projetos/4-Semestre.md) |
+| 5º | [Data Warehouse sobre Dados Operacionais da Empresa Parceira](projetos/5-Semestre.md) |
+| 6º | [Classificador de Documentos Técnicos](projetos/6-Semestre.md) |
