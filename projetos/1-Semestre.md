@@ -1,10 +1,4 @@
-<h1 align="center">🚀 API 1º Semestre - Banco de Dados 2023</h1>
-
-<p align="center">
-  <a href="https://github.com/Porygon-Users/API-Porygon/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/🔗 Repositório-555555?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</p>
+<h1 align="center">🚀 API 1º Semestre - Banco de Dados</h1>
 
 <p align="center">
   🎓 <strong>Parceiro Acadêmico:</strong><br>
@@ -80,32 +74,37 @@ Atuei como **Scrum Master** do time, sendo responsável por garantir que a equip
 
 <details>
   <summary>📋 Gestão do Quadro Kanban no Trello</summary>
-  <br>
+  <blockquote>
   Fui responsável por estruturar e manter atualizado o quadro no Trello, criando cards para cada user story do backlog, organizando colunas de fluxo (a fazer, em andamento, em revisão, concluído) e garantindo que todos os membros tivessem visibilidade clara de suas tarefas.
+  </blockquote>
 </details>
 
 <details>
   <summary>🗓️ Facilitação das Cerimônias Ágeis</summary>
-  <br>
+  <blockquote>
   Conduzi as reuniões de planejamento de sprint, dailies e retrospectivas, garantindo que cada ciclo tivesse objetivos claros, que os impedimentos fossem levantados rapidamente e que o time refletisse sobre melhorias contínuas ao final de cada sprint.
+  </blockquote>
 </details>
 
 <details>
   <summary>🚧 Remoção de Impedimentos</summary>
-  <br>
+  <blockquote>
   Atuei junto ao time de desenvolvimento para identificar bloqueios técnicos e de organização, intermediando a comunicação entre desenvolvedores e a Product Owner para que o backlog fosse priorizado de forma realista dentro do prazo de cada sprint.
+  </blockquote>
 </details>
 
 <details>
   <summary>📊 Acompanhamento do Cronograma</summary>
-  <br>
+  <blockquote>
   Monitorei o cumprimento das datas de início e término de cada uma das quatro sprints, ajustando o ritmo da equipe conforme a complexidade das user stories e assegurando que as entregas fossem feitas dentro do prazo estabelecido.
+  </blockquote>
 </details>
 
 <details>
   <summary>🤝 Alinhamento entre Equipe e Product Owner</summary>
-  <br>
+  <blockquote>
   Servi como ponte entre a Product Owner e os desenvolvedores, ajudando a traduzir os requisitos funcionais do projeto em tarefas executáveis e garantindo que as prioridades definidas no backlog fossem respeitadas.
+  </blockquote>
 </details>
 
 ---
