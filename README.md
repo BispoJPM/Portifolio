@@ -44,7 +44,7 @@ Essa vivência com processos, normas e organização de dados administrativos se
 
 ## 🧠 Principais Conhecimentos
 
-**💻 Front-end**: Conhecimento em `Angular` e `Vue`.`
+**💻 Front-end**: Conhecimento em `Angular` e `Vue`.
 
 **⚙️ Back-end**: Experiência sólida utilizando `Django`, `Python` com conhecimento em `Java` e `SpringBoot`.
 
