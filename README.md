@@ -44,23 +44,11 @@ Essa vivência com processos, normas e organização de dados administrativos se
 
 ## 🧠 Principais Conhecimentos
 
-**💻 Front-end**
+**💻 Front-end**: Conhecimento em `Angular` e `Vue`.`
 
-<img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white">
+**⚙️ Back-end**: Experiência sólida utilizando `Django`, `Python` com conhecimento em `Java` e `SpringBoot`.
 
-**⚙️ Back-end**
-
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
-
-**🗄️ Banco de Dados**
-
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+**🗄️ Banco de Dados**: Conhecimento em banco relacionais, principalmente `Postgres`, e `MySql` com conhecimento em banco não relacional `MongoDB`.
 
 ---
 
