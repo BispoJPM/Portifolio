@@ -39,16 +39,6 @@
 
 ## 🛠 Tecnologias Adotadas
 
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/JDBC-4479A1?style=for-the-badge&logo=java&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white">
-</p>
-
 - **Java Desktop**: linguagem utilizada para o desenvolvimento da aplicação, com conexão ao banco de dados via JDBC.
 - **MySQL**: banco de dados relacional utilizado para armazenar estações, cidades, variáveis climáticas e registros importados.
 - **Git/GitHub**: controle de versão e hospedagem do repositório do projeto.
@@ -107,19 +97,6 @@ Atuei como **Product Owner** do projeto, sendo responsável pela definição e p
   Apoiei a criação do wireframe do produto no Figma, ajudando a traduzir os requisitos funcionais em telas e fluxos de interação para o pesquisador usuário do sistema.
   </blockquote>
 </details>
-
----
-
-## 📅 Prazos
-
-| Etapa | Período | Status |
-|:------|:-------:|:------:|
-| Kick-off | 04/03 a 08/03 | ✔️ |
-| Sprint 1 | 25/03 a 14/04 | ✔️ |
-| Sprint 2 | 15/04 a 05/05 | ✔️ |
-| Sprint 3 | 06/05 a 26/05 | ✔️ |
-| Sprint 4 | 27/05 a 16/06 | ✔️ |
-| Feira de Soluções e Apresentação Final | 27/06 | ⏳ |
 
 ---
 
