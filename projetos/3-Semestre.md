@@ -2,7 +2,7 @@
 
 <p align="center">
   🎓 <strong>Parceiro Acadêmico:</strong><br>
-  FATEC São José dos Campos - Prof. Jessen Vidal
+  Empresa GSW
 </p>
 
 <p align="center"><img src="https://github.com/user-attachments/assets/26f47534-4a27-4e2e-82f5-2dbc83337876" alt="Capa" style="width:700px;height:400px;"></p>
