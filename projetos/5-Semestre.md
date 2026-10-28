@@ -1,5 +1,13 @@
 <h1 align="center">🚀 API 5º Semestre - Banco de Dados</h1>
 
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="4-Semestre.md">← Projeto anterior: 4º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="6-Semestre.md">Próximo projeto: 6º Semestre →</a></td>
+  </tr>
+</table>
+
 <p align="center"><img src="https://github.com/user-attachments/assets/9c2f315d-9621-4fed-be78-2aaac163f5b7" alt="Capa" style="width:700px;height:400px;"></p>
 
 
@@ -456,5 +464,14 @@ npm run lint   →   npm run type-check   →   npm run test:coverage   →   np
 </table>
 
 ---
-
 </p>
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="4-Semestre.md">← Projeto anterior: 4º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="6-Semestre.md">Próximo projeto: 6º Semestre →</a></td>
+  </tr>
+</table>

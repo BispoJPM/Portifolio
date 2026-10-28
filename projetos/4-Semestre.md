@@ -1,5 +1,13 @@
 <h1 align="center">🚀 API 4º Semestre - Banco de Dados</h1>
 
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="3-Semestre.md">← Projeto anterior: 3º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="5-Semestre.md">Próximo projeto: 5º Semestre →</a></td>
+  </tr>
+</table>
+
 <p align="center">
   🎓 <strong>Parceiro Acadêmico:</strong><br>
   Empresa Visiona
@@ -198,5 +206,14 @@ Atuar em um projeto dividido entre repositórios de frontend e backend, integrad
 **Sprint 3**: Modelagem e evolução da entidade Safra, implementação dos endpoints de atribuição e aprovação, criação do RelatorioSafra, RelatorioDTO e RelatorioController, e refatoração da listagem de talhões para ser baseada em safra.
 
 ---
-
 </p>
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="3-Semestre.md">← Projeto anterior: 3º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="5-Semestre.md">Próximo projeto: 5º Semestre →</a></td>
+  </tr>
+</table>

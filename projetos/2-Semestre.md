@@ -1,5 +1,13 @@
 <h1 align="center">🚀 API 2º Semestre - Banco de Dados</h1>
 
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="1-Semestre.md">← Projeto anterior: 1º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="3-Semestre.md">Próximo projeto: 3º Semestre →</a></td>
+  </tr>
+</table>
+
 <p align="center">
   🎓 <strong>Parceiro Acadêmico:</strong><br>
   FATEC São José dos Campos - Prof. Jessen Vidal
@@ -213,5 +221,14 @@ Participar de um projeto com banco de dados relacional mais robusto me aproximou
 **Sprint 4**: Priorização e validação da funcionalidade de edição de unidades de medida, estações e cidades, encerrando o backlog planejado para o semestre.
 
 ---
-
 </p>
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="1-Semestre.md">← Projeto anterior: 1º Semestre</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="3-Semestre.md">Próximo projeto: 3º Semestre →</a></td>
+  </tr>
+</table>

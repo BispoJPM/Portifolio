@@ -1,5 +1,13 @@
 <h1 align="center">🚀 API 1º Semestre - Banco de Dados</h1>
 
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="../README.md">← Voltar ao portfólio</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="2-Semestre.md">Próximo projeto: 2º Semestre →</a></td>
+  </tr>
+</table>
+
 <p align="center">
   🎓 <strong>Parceiro Acadêmico:</strong><br>
   FATEC São José dos Campos - Prof. Jessen Vidal
@@ -235,3 +243,13 @@ Atuar como elo entre a Product Owner e os desenvolvedores desenvolveu minha capa
 
 ---
 </p>
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="33%" align="left"><a href="../README.md">← Voltar ao portfólio</a></td>
+    <td width="34%" align="center"><a href="../README.md">Todos os projetos</a></td>
+    <td width="33%" align="right"><a href="2-Semestre.md">Próximo projeto: 2º Semestre →</a></td>
+  </tr>
+</table>
