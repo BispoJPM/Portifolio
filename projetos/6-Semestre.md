@@ -31,9 +31,14 @@
 
 > Utilizando IA e machine learning, o sistema **Índice** monta correlações entre a pesquisa do usuário e os documentos que possam corresponder ao desejado. A plataforma dispõe de:
 >
-> - Uma **tela de pesquisa** com campo de pesquisa textual e filtros pré-determinados;
-> - Um **fluxo de upload de documentos**;
-> - **Login com diferentes perfis de usuário**, de forma que alguns perfis possam controlar os demais e decidir níveis de autorização (quem pode ver qual documento) e a relação entre as áreas da empresa.
+> - Pesquisa textual e por conteúdo, filtros por metadados, sugestões de materiais relacionados e consulta ao histórico de pesquisas;
+> - Envio de documentos e revisões, com validação, organização e histórico de versões;
+> - Biblioteca pessoal para salvar documentos favoritos;
+> - Solicitação e análise de acesso a documentos restritos, com decisões registradas;
+> - Gestão de grupos de acesso e de permissões por perfil;
+> - Histórico de decisões administrativas e de manifestações sobre termos legais;
+> - Pré-visualização protegida de documentos restritos e busca de texto em PDFs;
+> - Resumos de resultados de pesquisa com apoio de IA.
 
 ---
 
@@ -56,17 +61,31 @@
 - **Docker Compose**: execução integrada da API e dos bancos de dados em um ambiente padronizado.
 - **Git e GitHub**: versionamento e colaboração em repositórios separados para backend, frontend e documentação do projeto.
 
+### 🏗 Arquitetura e repositórios
+
+O sistema é dividido em dois repositórios que se comunicam por uma API:
+
+- **Backend**: API em Python e Django, responsável pelas regras de negócio, autenticação, permissões e integração com PostgreSQL e MongoDB. O ambiente de desenvolvimento é orquestrado com Docker Compose.
+- **Frontend**: aplicação web em Vue.js e TypeScript, construída com Vite, responsável pelas telas de pesquisa, documentos, revisões e administração.
+
+Repositórios do projeto:
+
+- [Backend Índice](https://github.com/Pragma-Co/backend-indice)
+- [Frontend Índice](https://github.com/Pragma-Co/frontend-indice)
+
 ---
 
 ## 🔷 Requisitos Funcionais
 
 - Envio, validação, organização e visualização de documentos técnicos.
 - Extração e padronização de metadados para facilitar a identificação dos arquivos.
-- Pesquisa por atributos e pelo conteúdo dos documentos, com filtros e sugestões de materiais relacionados.
+- Pesquisa por atributos e pelo conteúdo dos documentos, com filtros, sugestões de materiais relacionados, histórico de buscas e localização de texto em PDFs.
 - Classificação assistida por IA, agrupamento temático e geração de resumos a partir dos documentos encontrados.
-- Consulta ao histórico e envio de revisões de documentos.
-- Controle de permissões e solicitações de acesso para documentos restritos.
-- Registro e acompanhamento das operações relacionadas à ingestão e ao acesso aos arquivos.
+- Consulta ao histórico de revisões e envio de novas versões dos documentos.
+- Salvamento de documentos em uma biblioteca pessoal de favoritos.
+- Solicitação, análise e decisão de acesso a documentos restritos, com grupos e permissões definidos por perfil.
+- Consulta ao histórico de pesquisas, decisões de acesso e manifestações sobre termos legais.
+- Registro e acompanhamento de operações relacionadas à ingestão e ao acesso aos arquivos.
 
 ---
 
@@ -110,6 +129,34 @@ Atuei como **Developer full stack**, contribuindo no backend e no frontend em di
 </details>
 
 <details>
+  <summary>⭐ Biblioteca pessoal e documentos favoritos</summary>
+  <blockquote>
+    Implementei endpoints para salvar, listar e remover documentos da biblioteca pessoal e conectei os favoritos da interface a essa API. A listagem considera se o usuário ainda tem permissão para consultar o documento e se a autorização continua válida.
+  </blockquote>
+</details>
+
+<details>
+  <summary>🔑 Grupos de acesso e análise de solicitações</summary>
+  <blockquote>
+    Desenvolvi endpoints para gestão de grupos de acesso e complementei o fluxo de solicitações de acesso a documentos. No painel de revisão, implementei um modal para que gestores analisem os pedidos e registrem suas decisões; também ajustei a integração entre interface e API para apresentar o resultado ao usuário.
+  </blockquote>
+</details>
+
+<details>
+  <summary>📜 Histórico de pesquisas, decisões e termos legais</summary>
+  <blockquote>
+    Criei o registro e a consulta de pesquisas recentes do usuário e trabalhei na preservação desse histórico durante a anonimização da conta. Também implementei o histórico de decisões de acesso para gestores, com filtros, tabela e visualização dos detalhes, além da exibição do histórico de manifestações sobre termos legais. No backend, contribuí para registrar respostas a termos e manter o versionamento incremental dos textos legais.
+  </blockquote>
+</details>
+
+<details>
+  <summary>🛡️ Pré-visualização protegida e busca em PDFs</summary>
+  <blockquote>
+    Implementei a apresentação protegida de documentos restritos, com marca d'água identificando o usuário e renderização de PDFs em páginas para evitar o uso direto do visualizador padrão do navegador. Depois, acrescentei busca de texto no PDF, com realce e navegação entre ocorrências. Essas medidas são dissuasórias na interface e não substituem a autorização aplicada pelo backend.
+  </blockquote>
+</details>
+
+<details>
   <summary>🤖 Resumos de pesquisa com Ollama</summary>
   <blockquote>
     Integrei o Ollama à geração de resumos a partir dos resultados de pesquisa, ajustei o tempo limite padrão da operação e documentei as configurações necessárias no README e no modelo de variáveis de ambiente do backend.
@@ -125,26 +172,6 @@ Atuei como **Developer full stack**, contribuindo no backend e no frontend em di
 
 ---
 
-## 📚 Aprendizados Efetivos
-
-### Desenvolvimento Full Stack com Repositórios Integrados
-
-Contribuir em repositórios separados para frontend e backend reforçou a importância de manter contratos claros entre a interface e a API, especialmente em fluxos que envolvem envio de arquivos, usuários e histórico.
-
-### Versionamento e Ciclo de Vida de Documentos
-
-Trabalhar com revisões e histórico ampliou minha compreensão sobre como preservar a rastreabilidade de documentos e apresentar ao usuário o contexto correto de cada versão.
-
-### Regras de Negócio e Testes
-
-O tratamento de duplicidades mostrou que comparar arquivos exige considerar o contexto do negócio: um documento repetido pode ser inválido dentro de um mesmo fluxo e, ainda assim, ser legítimo em outro projeto. Testes automatizados ajudam a proteger esse comportamento.
-
-### Gestão de Documentação Técnica
-
-O projeto aproximou conceitos de banco de dados, busca e inteligência artificial de um problema real de engenharia, no qual encontrar a informação certa com segurança e rapidez é essencial.
-
----
-
 ## 🏆 Competências Desenvolvidas
 
 ### 🧠 Hard Skills
@@ -157,8 +184,8 @@ O projeto aproximou conceitos de banco de dados, busca e inteligência artificia
   </tr>
   <tr>
     <td>Python / Django</td>
-    <td>★★★★☆</td>
-    <td>Sei fazer com ajuda</td>
+    <td>★★★★★</td>
+    <td>Sei fazer com autonomia</td>
   </tr>
   <tr>
     <td>Vue.js / TypeScript</td>
@@ -167,8 +194,8 @@ O projeto aproximou conceitos de banco de dados, busca e inteligência artificia
   </tr>
   <tr>
     <td>PostgreSQL / MongoDB</td>
-    <td>★★★★☆</td>
-    <td>Sei fazer com ajuda</td>
+    <td>★★★★★</td>
+    <td>Sei fazer com autonomia</td>
   </tr>
   <tr>
     <td>Testes Automatizados</td>
@@ -177,13 +204,27 @@ O projeto aproximou conceitos de banco de dados, busca e inteligência artificia
   </tr>
   <tr>
     <td>Docker / Docker Compose</td>
-    <td>★★★☆☆</td>
-    <td>Entendi</td>
+    <td>★★★★★</td>
+    <td>Sei fazer com autonomia</td>
+  </tr>
+  <tr>
+    <td>APIs REST e integração full stack</td>
+    <td>★★★★☆</td>
+    <td>Sei fazer com ajuda</td>
+  </tr>
+  <tr>
+    <td>Autorização e controle de acesso</td>
+    <td>★★★★☆</td>
+    <td>Sei fazer com ajuda</td>
   </tr>
 </table>
 
 ### 🤝 Soft Skills
 
+- **Colaboração**: integração de tarefas entre frontend e backend, alinhando contratos e fluxos com o time.
+- **Comunicação**: documentação de endpoints, configurações e comportamentos para apoiar o uso e a manutenção do sistema.
+- **Pensamento analítico**: decomposição de regras de negócio, como duplicidade contextual de arquivos e validade de permissões.
+- **Atenção a detalhes**: cuidado com histórico, autorização, consistência dos dados e testes dos fluxos.
 
 
 ---
